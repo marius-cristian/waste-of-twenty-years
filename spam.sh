@@ -9,5 +9,5 @@ while [ "$day" -le "$upper" ]; do
     echo $date > token
     git add token
     git commit -m "Good Morning $date ..." --date="$date"
-
+    day=$(($day + 1))
 done
