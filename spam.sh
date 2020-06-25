@@ -11,3 +11,6 @@ while [ "$day" -le "$upper" ]; do
     git commit -m "Good Morning $date ..." --date="$date"
     day=$(($day + 1))
 done
+echo "1889-04-20" > token
+git add token
+git commit -m "Ach nein"
